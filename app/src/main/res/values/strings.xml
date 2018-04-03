@@ -1,9 +1,17 @@
 <resources>
     <string name="app_name">Custom Flash Cards</string>
     <string name="action_settings">Settings</string>
-    <!-- Title text for the empty view, which describes the empty dog house image [CHAR LIMIT=50] -->
+    <!-- Title text for the empty view [CHAR LIMIT=50] -->
     <string name="empty_view_title_text">It\'s a bit lonely here...</string>
 
-    <!-- Subtitle text for the empty view that prompts the user to add a pet [CHAR LIMIT=50] -->
-    <string name="empty_view_subtitle_text">Get started by adding a pet</string>
+    <!-- Subtitle text for the empty view that prompts the user to add a set [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a set</string>
+
+    <!-- Label for editor menu option to save and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current set [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+
 </resources>
