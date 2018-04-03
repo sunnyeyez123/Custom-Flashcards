@@ -13,5 +13,12 @@
     <!-- Label for editor overflow menu option that deletes the current set [CHAR LIMIT=20] -->
     <string name="action_delete">Delete</string>
 
+    <!-- Label for set editor name field [CHAR LIMIT=20] -->
+    <string name="set_name">Name</string>
+
+    <!-- Label for set editor name field [CHAR LIMIT=20] -->
+    <string name="set_desc">Description</string>
+
+
 
 </resources>

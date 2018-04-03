@@ -37,7 +37,7 @@ public class EditSetActivity extends AppCompatActivity {
                 Toast.makeText(this, "Delete the set", Toast.LENGTH_SHORT).show();
                 return true;
         }
-        
+
         return super.onOptionsItemSelected(item);
     }
 }
