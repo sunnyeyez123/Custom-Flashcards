@@ -26,4 +26,5 @@
         tools:text="Short description of Set 1"
         android:textAppearance="?android:textAppearanceSmall"
         android:textColor="#AEB6BD"  />
+
 </LinearLayout>
