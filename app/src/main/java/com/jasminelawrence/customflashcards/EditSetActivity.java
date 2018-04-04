@@ -17,7 +17,7 @@ public class EditSetActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_editor, menu);
+        getMenuInflater().inflate(R.menu.menu_set_editor, menu);
         return true;
     }
 
@@ -29,11 +29,11 @@ public class EditSetActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         switch (id) {
-            case R.id.action_save:
+            case R.id.action_save_set:
                 Toast.makeText(this, "Save the set", Toast.LENGTH_SHORT).show();
                 return true;
 
-            case R.id.action_delete:
+            case R.id.action_delete_set:
                 Toast.makeText(this, "Delete the set", Toast.LENGTH_SHORT).show();
                 return true;
         }
