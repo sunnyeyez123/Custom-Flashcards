@@ -1,5 +1,6 @@
 package com.jasminelawrence.customflashcards;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showTerm(View view){
-        Intent intent = new Intent(MainActivity.this, EditCardActivity.class);
+        Intent intent = new Intent(MainActivity.this, TermActivity.class);
         startActivity(intent);
     }
 

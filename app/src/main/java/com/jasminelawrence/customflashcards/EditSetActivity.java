@@ -1,5 +1,6 @@
 package com.jasminelawrence.customflashcards;
 
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -12,6 +13,8 @@ public class EditSetActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_set);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
@@ -35,6 +38,9 @@ public class EditSetActivity extends AppCompatActivity {
 
             case R.id.action_delete_set:
                 Toast.makeText(this, "Delete the set", Toast.LENGTH_SHORT).show();
+                return true;
+            case android.R.id.home:
+                NavUtils.navigateUpFromSameTask(this);
                 return true;
         }
 
