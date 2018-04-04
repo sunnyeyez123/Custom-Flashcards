@@ -16,9 +16,14 @@
     <!-- Label for set editor name field [CHAR LIMIT=20] -->
     <string name="set_name">Name</string>
 
-    <!-- Label for set editor name field [CHAR LIMIT=20] -->
-    <string name="set_desc">Description</string>
+    <!-- Hint text for for set editor description field [CHAR LIMIT=20] -->
+    <string name="set_name_help">Choose a name</string>
 
+    <!-- Label for set editor description field [CHAR LIMIT=20] -->
+    <string name="set_desc">About</string>
+
+    <!-- Hint text for for set editor description field [CHAR LIMIT=20] -->
+    <string name="set_desc_help">Describe your set</string>
 
 
 </resources>
