@@ -16,20 +16,24 @@
     <!-- Label for set editor name field [CHAR LIMIT=20] -->
     <string name="set_name">Name</string>
 
-
-
     <!-- Label for set editor description field [CHAR LIMIT=20] -->
     <string name="set_desc">About</string>
 
     <!-- Label for set editor name field [CHAR LIMIT=20] -->
     <string name="card_term">Term</string>
 
-
-
     <!-- Label for set editor description field [CHAR LIMIT=20] -->
     <string name="card_definition">Definition</string>
 
+    <!-- Activity label for creating a new set   [CHAR LIMIT=20] -->
+    <string name="add_set">Add Set</string>
+    <!-- Activity label for editing a set [CHAR LIMIT=20] -->
+    <string name="edit_set">Edit Set</string>
 
+    <!-- Activity label for creating a new card   [CHAR LIMIT=20] -->
+    <string name="add_card">Add Card</string>
+    <!-- Activity label for editing a card [CHAR LIMIT=20] -->
+    <string name="edit_card">Edit Card</string>
 
 
 </resources>

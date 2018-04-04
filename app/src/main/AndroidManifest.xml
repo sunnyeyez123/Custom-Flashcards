@@ -19,8 +19,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".EditSetActivity" />
-        <activity android:name=".EditCardActivity"></activity>
+        <activity android:name=".EditSetActivity"
+            android:label="@string/add_set"/>
+
+        <activity android:name=".EditCardActivity"
+            android:label="@string/add_card">
+
+        </activity>
     </application>
 
 </manifest>
