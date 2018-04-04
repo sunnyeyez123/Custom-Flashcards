@@ -14,7 +14,6 @@ public class EditSetActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_set);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
@@ -36,12 +35,6 @@ public class EditSetActivity extends AppCompatActivity {
                 Toast.makeText(this, "Save the set", Toast.LENGTH_SHORT).show();
                 return true;
 
-            case R.id.action_delete_set:
-                Toast.makeText(this, "Delete the set", Toast.LENGTH_SHORT).show();
-                return true;
-            case android.R.id.home:
-                NavUtils.navigateUpFromSameTask(this);
-                return true;
         }
 
         return super.onOptionsItemSelected(item);

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- Options menu for the CardEditorActivity -->
+<!-- Options menu for the SetEditorActivity -->
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".EditSetActivity">
 
     <item
-        android:id="@+id/action_save_card"
-        android:title="@string/action_save"
-        android:icon="@drawable/ic_check_white_24dp"
+        android:id="@+id/action_flip_card"
+        android:title="@string/flip_card"
+        android:icon="@drawable/ic_flip_white_24dp"
         app:showAsAction="always" />
+
 
 </menu>

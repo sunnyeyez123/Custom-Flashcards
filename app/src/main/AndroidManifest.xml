@@ -22,18 +22,21 @@
         <activity
             android:name=".EditSetActivity"
             android:label="@string/add_set"
-            android:parentActivityName=".MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+            >
+
         </activity>
         <activity
             android:name=".EditCardActivity"
-            android:label="@string/add_card" />
+            android:label="@string/add_card"
+           >
+
+
+        </activity>
         <activity
             android:name=".TermActivity"
             android:label=" "
-            android:parentActivityName=".CardListActivity">
+            android:parentActivityName=".CardListActivity"
+           >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".CardListActivity" />
@@ -42,7 +45,9 @@
         <activity
             android:name=".CardListActivity"
             android:label="Set Name"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+          >
+
+        </activity>
     </application>
 
 </manifest>

@@ -13,7 +13,6 @@ public class EditCardActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_card);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }
 
@@ -34,15 +33,10 @@ public class EditCardActivity extends AppCompatActivity {
 
         switch (id) {
             case R.id.action_save_card:
-                Toast.makeText(this, "Save the set", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Save the card", Toast.LENGTH_SHORT).show();
                 return true;
 
-            case R.id.action_delete_card:
-                Toast.makeText(this, "Delete the set", Toast.LENGTH_SHORT).show();
-                return true;
-            case android.R.id.home:
-                NavUtils.navigateUpFromSameTask(this);
-                return true;
+
         }
 
         return super.onOptionsItemSelected(item);

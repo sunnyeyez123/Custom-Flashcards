@@ -34,7 +34,11 @@
     <string name="add_card">Add Card</string>
     <!-- Activity label for editing a card [CHAR LIMIT=20] -->
     <string name="edit_card">Edit Card</string>
+
     <string name="title_activity_card_list">CardListActivity</string>
+
+    <string name="flip_card">Flip</string>
+
 
 
 </resources>
