@@ -41,7 +41,7 @@
         android:layout_marginLeft="-4dp"
         android:layout_marginStart="-4dp"
         app:counterEnabled="true"
-        app:counterMaxLength="500">
+        app:counterMaxLength="50">
 
         <android.support.design.widget.TextInputEditText
             android:id="@+id/desc_text_input"
