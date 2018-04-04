@@ -41,7 +41,16 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".CardListActivity" />
         </activity>
-        <activity android:name=".DefinitionActivity" />
+        <activity android:name=".DefinitionActivity"
+            android:label=" "
+            android:parentActivityName=".CardListActivity"
+
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CardListActivity" />
+
+        </activity>
         <activity
             android:name=".CardListActivity"
             android:label="Set Name"
