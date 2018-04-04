@@ -14,6 +14,6 @@
 
     <item
         android:id="@+id/action_edit_set"
-        android:title="@string/action_delete"
+        android:title="@string/edit_set"
         app:showAsAction="never" />
 </menu>

@@ -41,7 +41,7 @@
         <activity android:name=".DefinitionActivity" />
         <activity
             android:name=".CardListActivity"
-            android:label="@string/title_activity_card_list"
+            android:label="Set Name"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
