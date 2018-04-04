@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void showTerm(View view){
-        Intent intent = new Intent(MainActivity.this, TermActivity.class);
+    public void showTermList(View view){
+        Intent intent = new Intent(MainActivity.this, CardListActivity.class);
         startActivity(intent);
     }
 

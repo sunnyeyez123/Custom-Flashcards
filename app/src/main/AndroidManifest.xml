@@ -33,10 +33,10 @@
         <activity
             android:name=".TermActivity"
             android:label=" "
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".CardListActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".CardListActivity" />
         </activity>
         <activity android:name=".DefinitionActivity" />
         <activity
